@@ -1,4 +1,15 @@
-.container--nav {
-    background-color: aliceblue;
+.container--nav .navbar .container-fluid a{
     color: white;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid .collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
