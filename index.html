@@ -43,14 +43,16 @@
     </header>
 
   <main>
-    <div class="charts">
-      <canvas id="myChart"></canvas>
+    <div>
+      <div class="charts">
+        <canvas id="myChart1"></canvas>
+      </div>
     </div>
   </main>
     
 </body>
 <script>
-  const ctx = document.getElementById('myChart');
+  const ctx = document.getElementById('myChart1');
 
   new Chart(ctx, {
     type: 'line',
