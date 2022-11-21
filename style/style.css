@@ -31,17 +31,3 @@
     justify-content: center;
 }
 
-.container--principal--chart{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-
-.container--principal--chart img{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-}
