@@ -19,7 +19,7 @@
 
 <body>
     <header class="container--nav">
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,8 +59,8 @@
     <div>
       <section class="container--principal--chart">
         <style type="text/css">
-          .tg  {border-collapse:collapse;border-spacing:0;}
-          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          .tg  {border-collapse:collapse;border-spacing:0;align-items: center;}
+          .tg td{align-items: center; border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
             overflow:hidden;padding:10px 5px;word-break:normal;}
           .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
             font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -69,22 +69,32 @@
           <table class="tg">
           <thead>
             <tr>
-              <th class="tg-0pky"></th>
-              <th class="tg-0pky"></th>
-              <th class="tg-0pky"></th>
-              <th class="tg-0pky"></th>
-              <th class="tg-0pky"></th>
-              <th class="tg-0pky"></th>
+              <th rowspan="2">
+                <img width="50%" height="50%" src="/image/Logo rocio.png" alt="">
+              </th>
+              <th class="tg-0pky">Código de documento:
+                <br> DOC GER HR 012</th>
+              <th class="tg-0pky">Documento eletrônico: 
+                <br> DOC GER HR 012.pdf</th>
+              <th class="tg-0pky">Versão:
+                <br> 001</th>
+              <th colspan="2" class="tg-0pky">Pág. 1 de 1</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td class="tg-0pky"></td>
-              <td class="tg-0pky"></td>
-              <td class="tg-0pky"></td>
-              <td class="tg-0pky"></td>
-              <td class="tg-0pky"></td>
-              <td class="tg-0pky"></td>
+              <td colspan="5" class="tg-0pky">CONTROLE DE TEMPERATURA
+                <br> SETOR:_________________
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-0pky">Tipo de equipamento:</td>
+              <td class="tg-0pky">Freezer □</td>
+              <td class="tg-0pky">Geladeira □</td>
+              <td class="tg-0pky">Câmara fria □</td>
+              <td class="tg-0pky">Marca:_______________</td>
+              <td class="tg-0pky">Fonte de energia: ( )110   ( )220</td>
             </tr>
             <tr>
               <td class="tg-0pky"></td>
@@ -123,6 +133,12 @@
       </section>
     </div>
   </main>
+
+  <footer class="footer">
+    <h3>
+      <p>Todos os direitos reservados</p>
+    </h3>
+  </footer>
     
 </body>
     <!-- JavaScript Bundle with Popper -->

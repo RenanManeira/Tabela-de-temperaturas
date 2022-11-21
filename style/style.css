@@ -1,4 +1,7 @@
 /******NAV******/
+.container--nav{
+    background-color: #4b569c;
+}
 .container--nav .navbar .container-fluid a{
     color: white;
 }
@@ -31,3 +34,12 @@
     justify-content: center;
 }
 
+.footer{
+    background-color: #4b569c;
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+    
