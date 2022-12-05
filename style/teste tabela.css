@@ -28,7 +28,8 @@
 
 .tg  {
     border-collapse:collapse;
-    border-spacing:10px; 
+    border-spacing:10px;
+    width: 100%;
 }
 
 .tg td{
@@ -51,6 +52,22 @@
 .tg img{
     width: 80px;
     height: 100px;
+}
+
+.tg2 {
+    background-color: lightskyblue;
+    border-collapse:collapse;
+    border-spacing:10px;
+    width: 100%;
+}
+
+.tg2 td{
+    text-align: center;
+    border-top: 1px solid white;
+    border:1px solid black;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:20px 20px;
 }
 /****FOOTER****/
 
