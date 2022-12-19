@@ -1,23 +1,3 @@
-/******NAV******/
-.container--nav{
-    background-color: #4b569c;
-}
-.container--nav .navbar .container-fluid a{
-    color: white;
-}
-
-.container-fluid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-fluid .collapse{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /******Table*******/
 .container--table{
     display: flex;
@@ -54,7 +34,7 @@
     width: 50px;
 }
 .tg img{
-    width: 80px;
+    width: 100px;
     height: 100px;
 }
 
@@ -90,15 +70,4 @@
     font-family:Arial, sans-serif;
     font-size:14px;
     padding:5px 5px;
-}
-/****FOOTER****/
-
-.footer{
-    background-color: #4b569c;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
 }
